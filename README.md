@@ -130,7 +130,7 @@ Data cleaning techniques were used to clean and format data, including:
 
 As depicted in the Seaborn count plot below, fifty-seven percent of the total observations chose to accept the offered coupons. While it is not a bad acceptance rate, there is still room to increase the overall coupon acceptance rate.
 
-![fig1-anwser4](images\fig1-anwser4.png)
+![fig1-anwser4](images/fig1-anwser4.png)
 
 ### Coupon acceptance distribution
 
@@ -140,7 +140,7 @@ The Seaborn count plot and violin chart below suggested that:
 -   Accepted coupons are concentrated in three coupon types: Cheap restaurant, Coffee House and Carry out & Take Away coupons.
 -   Rejected coupons are concentrated in two coupon types: Coffee House and Bar coupons.
 
-![fig2-anwser5](images\fig2-anwser5.png)
+![fig2-anwser5](images/fig2-anwser5.png)
 
 ### Coupon acceptance rate
 
@@ -148,7 +148,7 @@ The Plotly histogram below displays the acceptance rates of each coupon type. Al
 
 The Carry out & Take away coupon type has the highest acceptance rate which is 74% and the Bar coupon type has the lowest acceptance rate which is 41%.
 
-![fig3-anwser5a](images\fig3-anwser5a.png)
+![fig3-anwser5a](images/fig3-anwser5a.png)
 
 ### What are two coupon types that can be selected for analysis?
 
@@ -164,7 +164,7 @@ With an attempt to understand drivers’ behaviors in order to increase the over
 
 Accepted Bar coupons account for 11.5% of accepted coupons, the second smallest proportion of the total number of accepted coupons. As illustrated in the charts above, Bar coupon is also the second smallest coupon type in terms of volume offered. In addition, the acceptance rate of Bar coupon is 41%.
 
-![fig4-anwserB2](images\fig4-anwserB2.png)
+![fig4-anwserB2](images/fig4-anwserB2.png)
 
 ### Target Driver Groups to compare the Bar coupon acceptance rates
 
@@ -193,11 +193,11 @@ In addition to the acceptance rates, proportion of accepted coupons was calculat
 
 -   The acceptance rate of the Target Group 1 (those who went to a bar 3 or fewer times a month) is 37% and is much lower than the acceptance rate of the Non-Target Group 1 (those who went to a bar more than 3 times a month) which is 77%. Despite the low acceptance rate, 81% of the total number of accepted Bar coupons were accepted by the Target Group 1. This suggests that most of the Bar coupons were offered to this Target Group 1.
 
-![fig-rate comparisionGroup 1](images\fig-rate comparisionGroup 1.png)
+![fig-rate comparisionGroup 1](images/fig-rate comparisionGroup 1.png)
 
 The acceptance rate of Target Groups 2 – 5, people who go to a bar more than once a month - regardless of the combination with other features such as age, passenger, occupancy - is about 70%. 
 
-![fig-rate comparision all groups](images\fig-rate comparision all groups.png)
+![fig-rate comparision all groups](images/fig-rate comparision all groups.png)
 
 ### Hypothesis
 
@@ -207,7 +207,7 @@ The acceptance rate of Target Groups 2 – 5, people who go to a bar more than o
 
 The violin chart below suggests that people who never go to a bar tend to reject the bar coupons the most. Rejection of Bar coupons decreases when the frequency of going to a bar increases. This is consistent with the above hypothesis.
 
-![bar attendence violin](images\bar attendence violin.png)
+![bar attendence violin](images/bar attendence violin.png)
 
 The above violin chart also shows that Accepted Bar coupons are concentrated in drivers who went to a bar up to 3 times a month.
 
@@ -215,7 +215,7 @@ To further examine the acceptance behavior, the below chart was plotted to depic
 
 However, the acceptance rate slightly reduces for drivers who go to a bar more than 8 times a month. Still, the acceptance rate of the driver group who go to a bar more than 8 times a month is higher than that of the driver group who go to a bar 1 - 3 times a month.
 
-![AcceptanceRatebyFrequency](images\AcceptanceRatebyFrequency.png)
+![AcceptanceRatebyFrequency](images/AcceptanceRatebyFrequency.png)
 
 ### Conclusion and Recommendations - Bar Coupon
 
@@ -227,17 +227,17 @@ The above analysis suggests that the Bar coupon acceptance is largely driven by 
 
 As mentioned above and as illustrated by the chart below, Coffee House coupon type is the most offered coupon type. However, slightly more than half of them, as illustrated below, were rejected. 
 
-![couponcount](images\couponcount.png)
+![couponcount](images/couponcount.png)
 
 Still, accepted Coffee House coupons account for 27.7% of all accepted coupons. It is the highest proportion of accepted coupons. Rejected Coffee House coupons account for 36.6% of all rejected coupons. It is also the highest proportion of rejected coupons.
 
-![couponacceptance](images\couponacceptance.png)
+![couponacceptance](images/couponacceptance.png)
 
 ### Features that have a higher association with Coffee House coupon acceptance
 
 To gain some insights to features that have more influence on the acceptance of the Coffee House coupons, a heatmap for the association matrix of both numeric features and categorical features was plotted with Seaborn.
 
-![heatmap1](images\heatmap1.png)
+![heatmap1](images/heatmap1.png)
 
 No strong association between the Accepted feature and other features is found. CoffeeHouse (Coffee House attendance frequency) feature is the feature that has the highest positive association with the Accepted (Coffee House acceptance) feature. This suggests that the acceptance of the Coffee House coupons is, to some extent, driven by the frequency of going to a Coffee House.
 
@@ -251,25 +251,25 @@ Like the Bar coupons, the violin chart below suggests that:
 -   Rejection of Coffee House coupons decreases when the frequency of going to a Coffee House increases.
 -   Accepted Coffee House coupons are concentrated in drivers who went to a Coffee House up to 3 times a month.
 
-![coffee attendence violin](images\coffee attendence violin.png)
+![coffee attendence violin](images/coffee attendence violin.png)
 
 The below chart depicts the acceptance rate of the Coffee House coupons by Frequency of going to a Coffee House. Like the Bar coupon type, there is an upward trend in acceptance rate from the driver group who does not go to a Coffee House to the driver group who goes to a Coffee House up to 8 times a month. The driver group who went to a Coffee House 4-8 times a month has the highest acceptance rate, which is 69%. Then, it slightly drops to 66% when drivers go to Coffee House more than 8 times a month.
 
-![CoffeeAcceptanceRatebyFrequency](images\CoffeeAcceptanceRatebyFrequency.png)
+![CoffeeAcceptanceRatebyFrequency](images/CoffeeAcceptanceRatebyFrequency.png)
 
 ### Analysis of Coffee House coupon acceptance and Destination, Passenger, Time, Expiration
 
 -   **Destination:** Drivers tend to accept Coffee House coupons more than reject them when they drive to a non-urgent place.
 
-![CoffeeAcceptanceDestination](images\CoffeeAcceptanceDestination.png)
+![CoffeeAcceptanceDestination](images/CoffeeAcceptanceDestination.png)
 
 -   **Passenger:** Currently, most Coffee House coupons are offered to drivers who drive alone. However, more rejected the coupons than accepted them. The higher acceptance rates are those who drive with friends or a partner. This makes sense as people enjoy company when going to a Coffee House. Therefore, Coffee House coupons should be offered to drivers with a partner or friend to increase the overall Coffee House coupon acceptance rate.
 
-![CoffeeAcceptanceCount](images\CoffeeAcceptanceCount.png)
+![CoffeeAcceptanceCount](images/CoffeeAcceptanceCount.png)
 
 - **Time and Expiration:** Although 1d (1 day) expiration Coffee House coupons perform better than 2h (2 hour) expiration Coffee House coupons (i.e., the acceptance rate of the 2h coupons is lower), it appears that 10AM is the sweet spot for the 2h expiration Coffee House coupons.
 
-![CoffeeTimeExpiration](images\CoffeeTimeExpiration.png)
+![CoffeeTimeExpiration](images/CoffeeTimeExpiration.png)
 
 ### Conclusion and Recommendations - Coffee House Coupon
 
