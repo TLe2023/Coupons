@@ -4,9 +4,13 @@
 
 [TOC]
 
-
+[1. Project Overview](#1. project overview)
+[2. Methodology](#2. Methodology)
+[3. Business Understanding](#3. Business Understanding)
+[10. Jupyter Notebook](Coupons#10-jupyter-notebook)
 
 ## 1. Project Overview
+
 
 The goal of this project is to develop a brief report that highlights the differences between customers or drivers who did and did not accept driving coupons by using visualizations and probability distributions.
 
