@@ -192,7 +192,7 @@ In addition to the acceptance rates, proportion of accepted coupons was calculat
 
 -   The acceptance rate of the Target Group 1 (those who went to a bar 3 or fewer times a month) is 37% and is much lower than the acceptance rate of the Non-Target Group 1 (those who went to a bar more than 3 times a month) which is 77%. Despite the low acceptance rate, 81% of the total number of accepted Bar coupons were accepted by the Target Group 1. This suggests that most of the Bar coupons were offered to this Target Group 1.
 
-![fig-rate comparisionGroup 1](images/fig-ratecomparisionGroup 1.png)
+![fig-rate comparisionGroup 1](images/fig-ratecomparisionGroup1.png)
 
 The acceptance rate of Target Groups 2 – 5, people who go to a bar more than once a month - regardless of the combination with other features such as age, passenger, occupancy - is about 70%. 
 
