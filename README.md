@@ -2,12 +2,7 @@
 
 
 
-[TOC]
 
-[1. Project Overview](#1. project overview)
-[2. Methodology](#2. Methodology)
-[3. Business Understanding](#3. Business Understanding)
-[10. Jupyter Notebook](Coupons#10-jupyter-notebook)
 
 ## 1. Project Overview
 
