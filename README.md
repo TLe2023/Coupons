@@ -192,11 +192,11 @@ In addition to the acceptance rates, proportion of accepted coupons was calculat
 
 -   The acceptance rate of the Target Group 1 (those who went to a bar 3 or fewer times a month) is 37% and is much lower than the acceptance rate of the Non-Target Group 1 (those who went to a bar more than 3 times a month) which is 77%. Despite the low acceptance rate, 81% of the total number of accepted Bar coupons were accepted by the Target Group 1. This suggests that most of the Bar coupons were offered to this Target Group 1.
 
-![fig-rate comparisionGroup 1](images/fig-rate comparisionGroup 1.png)
+![fig-rate comparisionGroup 1](images/fig-rate-comparisionGroup 1.png)
 
 The acceptance rate of Target Groups 2 – 5, people who go to a bar more than once a month - regardless of the combination with other features such as age, passenger, occupancy - is about 70%. 
 
-![fig-rate comparision all groups](images/fig-rate comparision all groups.png)
+![fig-rate comparision all groups](images/fig-rate-comparision-all-groups.png)
 
 ### 7.4 Hypothesis
 
@@ -206,7 +206,7 @@ The acceptance rate of Target Groups 2 – 5, people who go to a bar more than o
 
 The violin chart below suggests that people who never go to a bar tend to reject the bar coupons the most. Rejection of Bar coupons decreases when the frequency of going to a bar increases. This is consistent with the above hypothesis.
 
-![bar attendence violin](images/bar attendence violin.png)
+![bar attendence violin](images/bar-attendence-violin.png)
 
 The above violin chart also shows that Accepted Bar coupons are concentrated in drivers who went to a bar up to 3 times a month.
 
@@ -250,7 +250,7 @@ Like the Bar coupons, the violin chart below suggests that:
 - Rejection of Coffee House coupons decreases when the frequency of going to a Coffee House increases.
 - Accepted Coffee House coupons are concentrated in drivers who went to a Coffee House up to 3 times a month.
 
-![coffee attendence violin](images/coffee attendence violin.png)
+![coffee attendence violin](images/coffee-attendence-violin.png)
 
 The below chart depicts the acceptance rate of the Coffee House coupons by Frequency of going to a Coffee House. Like the Bar coupon type, there is an upward trend in acceptance rate from the driver group who does not go to a Coffee House to the driver group who goes to a Coffee House up to 8 times a month. The driver group who went to a Coffee House 4-8 times a month has the highest acceptance rate, which is 69%. Then, it slightly drops to 66% when drivers go to Coffee House more than 8 times a month.
 
