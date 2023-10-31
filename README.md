@@ -128,6 +128,8 @@ Data cleaning techniques were used to clean and format data, including:
 
 As depicted in the Seaborn count plot below, fifty-seven percent of the total observations chose to accept the offered coupons. While it is not a bad acceptance rate, there is still room to increase the overall coupon acceptance rate.
 
+Test
+
 ![A graph of a couple of green rectangular bars Description automatically generated with medium confidence](media/19ff32a34dc071e8aaf4069a5bb3a5e3.png)
 
 ### Coupon acceptance distribution
