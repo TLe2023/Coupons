@@ -280,7 +280,7 @@ In addition, Coffee House coupons should be **offered less to people who drive a
 
 There are five coupon types and two of them have been investigated. The next step is to analyze the acceptance behavior for the remaining three coupons; especially the “Carry out & take away” because it has the highest acceptance rate which is 74% and accounts for approximately a quarter of the total number of accepted coupons.
 
-In addition, based on the analysis of the Bar coupon type and the Coffee House coupon type, a general hypothesis for the remaining coupon types could be that the coupon acceptance is largely contributed by the attendance frequency and drivers who took out or went to a restaurant (cheap or more expensive) less frequently tend to reject the corresponding coupon more often. Having said that, it is important to investigate the dataset in related to the remaining coupons to prove or disprove the suggested hypothesis.
+In addition, based on the analysis of the Bar coupon type and the Coffee House coupon type, a general hypothesis for the remaining coupon types could be that the coupon acceptance is largely contributed by the attendance frequency and drivers who took out or went to a restaurant (cheap or more expensive) less frequently tend to reject the corresponding coupon more often. Having said that, it is important to investigate the dataset related to the remaining coupons to prove or disprove the suggested hypothesis.
 
 Lastly, the project can be continued with the remaining three phases of the CRISP-DM framework. They are modeling, evaluation, and deployment.
 
