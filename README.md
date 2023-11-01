@@ -218,7 +218,7 @@ However, the acceptance rate slightly reduces for drivers who go to a bar more t
 
 ### 7.6 Conclusion and Recommendations - Bar Coupon
 
-The above analysis suggests that the Bar coupon acceptance is largely driven by the bar attendance frequency. Bar coupons tend to be rejected by drivers who **never go to a bar or go to bar less than once a month** and, therefore, **should be offered less**. To increase the current overall Bar coupon acceptance rate which is 41%, the Bar coupons should be **offered more to people who go to a bar more than once a month, especially to people who go to a bar 4 – 8 times a month** as this driver group has the highest acceptance rate which is 78%.
+The above analysis suggests that the Bar coupon acceptance is largely driven by the bar attendance frequency. Bar coupons tend to be rejected by drivers who **never go to a bar or go to a bar less than once a month** and, therefore, **should be offered less**. To increase the current overall Bar coupon acceptance rate which is 41%, the Bar coupons should be **offered more to people who go to a bar more than once a month, especially to people who go to a bar 4 – 8 times a month** as this driver group has the highest acceptance rate which is 78%.
 
 ## 8. Coffee House Coupon Analysis
 
@@ -278,9 +278,9 @@ In addition, Coffee House coupons should be **offered less to people who drive a
 
 ## 9. Next Steps and Recommendations
 
-There are five coupon types and two of them have been investigated. The next step is to analyze the acceptance behavior for the remaining three coupons; especially the “Carry out & take away” because it has the highest acceptance rate which is 74% and accounts for approximately a quarter of the total number of accepted coupons.
+There are five coupon types and two of them have been reviewed. The next step is to analyze the acceptance behavior for the remaining three coupons; especially the “Carry out & take away” coupon because it has the highest acceptance rate which is 74% and accounts for approximately a quarter of the total number of accepted coupons.
 
-In addition, based on the analysis of the Bar coupon type and the Coffee House coupon type, a general hypothesis for the remaining coupon types could be that the coupon acceptance is largely contributed by the attendance frequency and drivers who took out or went to a restaurant (cheap or more expensive) less frequently tend to reject the corresponding coupon more often. Having said that, it is important to investigate the dataset related to the remaining coupons to prove or disprove the suggested hypothesis.
+In addition, based on the analysis of the Bar coupon type and the Coffee House coupon type, a general hypothesis for the remaining coupon types could be that the coupon acceptance is largely influenced by the attendance frequency and drivers who ordered take away or went to a restaurant (cheap or more expensive) less frequently tend to reject the corresponding coupon more often. In addition, accepted coupons the remaining three types may be concentrated in drivers who have 1-3 attendance frequency. Having said that, it is important to investigate the dataset related to the remaining coupons to prove or disprove the suggested hypothesis.
 
 Lastly, the project can be continued with the remaining three phases of the CRISP-DM framework. They are modeling, evaluation, and deployment.
 
