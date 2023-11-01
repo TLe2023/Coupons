@@ -120,8 +120,11 @@ Data cleaning techniques were used to clean and format data, including:
 | 4\~8               | 8              | 4 to 8 times a month      |
 | gt8                | 9              | More than 8 times a month |
 
--   Create new columns with numeric values for columns 'age', 'expiration', 'time'.
--   Use "get_dummies" function to convert the "gender" column to a numeric column.
+- Create new columns with numeric values for columns 'age', 'expiration', 'time'.
+
+- Use "get_dummies" function to convert the "gender" column to a numeric column.
+
+  
 
 ## 6. Identify Coupon Type for Analysis
 
@@ -190,7 +193,7 @@ In addition to the acceptance rates, proportion of accepted coupons was calculat
 
 ### 7.3 Observations of the Bar coupon acceptance rates of target groups
 
--   The acceptance rate of the Target Group 1 (those who went to a bar 3 or fewer times a month) is 37% and is much lower than the acceptance rate of the Non-Target Group 1 (those who went to a bar more than 3 times a month) which is 77%. Despite the low acceptance rate, 81% of the total number of accepted Bar coupons were accepted by the Target Group 1. This suggests that most of the Bar coupons were offered to this Target Group 1.
+The acceptance rate of the Target Group 1 (those who went to a bar 3 or fewer times a month) is 37% and is much lower than the acceptance rate of the Non-Target Group 1 (those who went to a bar more than 3 times a month) which is 77%. Despite the low acceptance rate, 81% of the total number of accepted Bar coupons were accepted by the Target Group 1. This suggests that most of the Bar coupons were offered to this Target Group 1.
 
 ![fig-rate comparisionGroup 1](images/fig-ratecomparisionGroup1.png)
 
@@ -238,9 +241,9 @@ To gain some insights to features that have more influence on the acceptance of 
 
 ![heatmap1](images/heatmap1.png)
 
-No strong association between the Accepted feature and other features is found. CoffeeHouse (Coffee House attendance frequency) feature is the feature that has the highest positive association with the Accepted (Coffee House acceptance) feature. This suggests that the acceptance of the Coffee House coupons is, to some extent, driven by the frequency of going to a Coffee House.
+No strong association between the "Accepted" feature and other features is found. "CoffeeHouse" (Coffee House attendance frequency) feature is the feature that has the highest positive association with the "Accepted" (Coffee House acceptance) feature. This suggests that the acceptance of the Coffee House coupons is, to some extent, driven by the frequency of going to a Coffee House.
 
-The Accepted feature has positive associations with Destination (0.18), Passenger (0.15), Time (0.18), Expiration (0.15). These features will be analyzed to gain more insights into the characteristics of drivers who did or did not accept the Coffee House coupons.
+The "Accepted" feature has positive associations with "Destinatio"n (0.18), "Passenger" (0.15), "Time" (0.18), "Expiration (0.15)". These features will be analyzed to gain more insights into the characteristics of drivers who did or did not accept the Coffee House coupons.
 
 ### 8.3 Analysis of Coffee House coupon acceptance and Frequency of going to a Coffee House
 
@@ -280,7 +283,7 @@ In addition, Coffee House coupons should be **offered less to people who drive a
 
 There are five coupon types and two of them have been reviewed. The next step is to analyze the acceptance behavior for the remaining three coupons; especially the “Carry out & take away” coupon because it has the highest acceptance rate which is 74% and accounts for approximately a quarter of the total number of accepted coupons.
 
-In addition, based on the analysis of the Bar coupon type and the Coffee House coupon type, a general hypothesis for the remaining coupon types could be that the coupon acceptance is largely influenced by the attendance frequency and drivers who ordered take away or went to a restaurant (cheap or more expensive) less frequently tend to reject the corresponding coupon more often. In addition, accepted coupons of the remaining three types may be concentrated in drivers who have 1-3 attendance frequency. Having said that, it is important to investigate the dataset related to the remaining coupons to prove or disprove the suggested hypothesis.
+In addition, based on the analysis of the Bar coupon type and the Coffee House coupon type, a general hypothesis for the remaining coupon types could be that the coupon acceptance is largely influenced by the attendance frequency and drivers who ordered take away or went to a restaurant (cheap or more expensive) less frequently tend to reject the corresponding coupon more often. In addition, accepted coupons of the remaining three types may be concentrated in drivers who have 1 - 3 attendance frequency. Having said that, it is important to investigate the dataset related to the remaining coupons to prove or disprove the suggested hypothesis.
 
 Lastly, the project can be continued with the remaining three phases of the CRISP-DM framework. They are modeling, evaluation, and deployment.
 
